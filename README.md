@@ -54,19 +54,19 @@ Installation Steps
 
 Clone the repository or unzip the starter code:
 # If you have it in a Git repository
-  git clone "your-repo-url"
+ 	 git clone "your-repo-url"
   
-  cd "your-repo-name"
+  	cd "your-repo-name"
 # If you received a zip file (e.g., starter_as6.zip)
 Unzip the file to your desired directory
 
-  cd path/to/your/unzipped/project
+  	cd path/to/your/unzipped/project
   
 Install Backend and Frontend Dependencies:
 
 Navigate to the root directory of the project (where package.json is located) and run:
 
-npm install
+	npm install
 
 This will install all necessary packages for both the backend (express, socket.io, etc.) and the frontend (vue, vue-router, vuex, socket.io-client, @vue/cli-service, etc.).
 # Running the Application
