@@ -32,6 +32,7 @@ Installation Steps
 Clone the repository or unzip the starter code:
 # If you have it in a Git repository
   git clone "your-repo-url"
+  
   cd "your-repo-name"
 # If you received a zip file (e.g., starter_as6.zip)
 Unzip the file to your desired directory
@@ -60,21 +61,39 @@ Analytics: View a live-updating summary table of post counts categorized by prob
 Project Structure
 .
 ├── node_modules/         # Node.js dependencies 
+
 ├── public/               # Static assets for Vue app (e.g., index.html)
+
 │   └── index.html        # Main HTML template for the Vue application
+
 ├── src/                  # Vue.js application source code
+
 │   ├── router/
+
 │   │   └── index.js      # Vue Router configuration
+
 │   ├── store/
+
 │   │   └── index.js      # Vuex store configuration
+
 │   ├── views/
+
 │   │   ├── Analytics.vue # Analytics page component
+
 │   │   ├── Home.vue      # Home page component
+
 │   │   └── LiveFeed.vue  # Live Feed page component
+
 │   ├── App.vue           # Root Vue component
+
 │   └── main.js           # Vue application entry point
+
 ├── package.json          # Project metadata and dependency list
+
 ├── package-lock.json     # Exact dependency tree (ignored in submission)
+
 ├── server.js             # Backend Node.js server for data simulation
+
 └── vue.config.js         # Vue CLI configuration for webpack
+
 └── README.md             # This file
