@@ -1,0 +1,28 @@
+{
+  "name": "websocketsexamplecode",
+  "version": "1.0.0",
+  "description": "There are two examples included here:",
+  "main": "chat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "lorem-ipsum": "^2.0.3",
+    "random-name": "^0.1.2",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "vue-router": "^4.5.1",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.8",
+    "vue-loader": "^17.4.2"
+  }
+}
