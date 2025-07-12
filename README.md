@@ -31,8 +31,8 @@ npm (Node Package Manager, comes with Node.js)
 Installation Steps
 Clone the repository or unzip the starter code:
 # If you have it in a Git repository
-  git clone <your-repo-url>
-  cd <your-repo-name>
+  git clone "your-repo-url"
+  cd "your-repo-name"
 # If you received a zip file (e.g., starter_as6.zip)
 Unzip the file to your desired directory
   cd path/to/your/unzipped/project
